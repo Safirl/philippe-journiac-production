@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <h1>Mentions légales</h1>
+    <h2>Identité</h2>
+    <p>
+        <span>Nom de l'éditeur : Loïc Leforestier</span>
+        <span>Directeur de la publication : Marie-Claire Journiac</span>
+    </p>
+    <h2>Coordonées</h2>
+    <p>
+        <span
+            >Email : <a href="mailto:mcjourniac@orange.fr"
+                >mcjourniac@orange.fr</a
+            ></span
+        >
+    </p>
+    <h2>Propriété intellectuelle</h2>
+    <p>
+        L'ensemble du contenu du site (textes, images, vidéos, logos, etc.) est
+        protégé par le droit de la propriété intellectuelle. Toute reproduction
+        ou diffusion sans autorisation est interdite.
+    </p>
+    <h2>Hébergeur</h2>
+    <p>
+        Le site est hébergé par : Netlify, Inc. Adresse : 2325 3rd Street, Suite
+        215, San Francisco, California 94107 Site web :
+        <a href="https://www.netlify.com/">https://www.netlify.com/</a>
+    </p>
+</Layout>
+
+<style lang="scss">
+    h1 {
+        @include font-title();
+        margin-bottom: 1.5rem;
+    }
+    h2 {
+        @include font-title2();
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    p {
+        display: flex;
+        flex-direction: column;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
