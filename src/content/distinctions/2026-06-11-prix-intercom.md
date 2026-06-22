@@ -1,5 +1,5 @@
 ---
 type: Prix intercom
 location: Expo d’art 5 – Villedieu les poêles
-received_at: 2024-01-01
+received_at: 2024-07-07
 ---
