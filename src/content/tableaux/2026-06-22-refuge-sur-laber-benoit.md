@@ -1,5 +1,6 @@
 ---
 title: REFUGE SUR L'ABER BENOIT
+image: /images/REFUGE SUR L'ABER BENOITok.jpg
 dimensions: 55 x 33 cm
 for_sale: false
 price: 0
