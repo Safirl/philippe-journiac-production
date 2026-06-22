@@ -1,5 +1,5 @@
 ---
 type: 1er Prix du public
 location: Salon des arts Domfrontais – Domfront
-received_at: 2025-01-01
+received_at: 2025-10-12
 ---
