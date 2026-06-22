@@ -1,5 +1,5 @@
 ---
-title: LUMIER DU TEMPS SUR LILIA
+title: LUMIERE DU TEMPS SUR LILIA
 image: /images/LUMIERE DU TEMPS SUR LILIAok-1.jpg
 dimensions: 55 x 33 cm
 for_sale: true
