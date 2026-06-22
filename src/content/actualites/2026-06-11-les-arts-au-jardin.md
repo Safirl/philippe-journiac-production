@@ -1,7 +1,11 @@
 ---
-title: Les' arts au jardin
-lede: empty
+title: LES' ARTS AU JARDIN
+lede: LE DIMANCHE 17 MAI 2026
 image: /images/affiche-medium.jpg
-publish_at: 2026-12-06
+publish_at: 2026-05-17
 ---
-empty
+VENEZ A LA RENCONTRE DES 11 ARTISTES, QUI EXPOSENT DANS UN CADRE BUCOLIQUe.
+
+LE DIMANCHE 17/05/2026 à PLELAN LE PETIT
+
+31 RUE DES GRAVIERS
