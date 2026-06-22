@@ -1,5 +1,5 @@
 ---
 type: 1er Prix du public
 location: 21ème salon de artistes - Trélivan
-received_at: 2026-01-01
+received_at: 2026-03-01
 ---
