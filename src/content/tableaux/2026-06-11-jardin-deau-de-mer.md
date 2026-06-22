@@ -1,5 +1,5 @@
 ---
-title: Jardin d'eau de mer
+title: JARDIN D'EAU DE MER
 image: /images/JARDIN D'EAU DE MER.jpg
 dimensions: 55 x 33 cm
 for_sale: false
