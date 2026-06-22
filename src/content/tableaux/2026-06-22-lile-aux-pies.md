@@ -1,5 +1,6 @@
 ---
-title: L'ILE AUX PIES
+title: ILE AUX PIES
+image: /images/ILE AUX PIES.jpg
 dimensions: 92 x 60 cm
 for_sale: true
 price: 0
