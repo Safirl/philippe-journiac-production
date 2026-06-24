@@ -3,7 +3,7 @@ media:
   output: /images
 
 content:
-# PREMIÈRE COLLECTION : LES TABLEAUX
+  # PREMIÈRE COLLECTION : LES TABLEAUX
   - name: tableaux
     label: Mes Tableaux
     type: collection
@@ -26,13 +26,17 @@ content:
         label: Prix (en euros)
         type: number
       - name: date_created
-        label: Date de création
+        label: Année de réalisation
         type: date
         default: ""
         options:
-          format: yyyy-MM-dd
+          format: yyyy
+      - name: published
+        label: Publié
+        type: boolean
+        default: true
 
-# DEUXIÈME COLLECTION : LES ACTUALITÉS
+  # DEUXIÈME COLLECTION : LES ACTUALITÉS
   - name: actualites
     label: Mes Actualités
     type: collection
@@ -55,7 +59,12 @@ content:
         type: date
         options:
           format: yyyy-MM-dd
-# TROISIEME COLLECTION : LES DISTINCTIONS
+      - name: published
+        label: Publié
+        type: boolean
+        default: true
+
+  # TROISIEME COLLECTION : LES DISTINCTIONS
   - name: distinctions
     label: Distinctions
     type: collection
@@ -71,4 +80,4 @@ content:
         label: Date du prix
         type: date
         options:
-          format: yyyy-MM-dd
+          format: yyyy

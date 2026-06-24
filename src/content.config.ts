@@ -11,6 +11,7 @@ const tableaux = defineCollection({
     for_sale: z.boolean(),
     price: z.number(),
     date_created: z.date(),
+    published: z.boolean(),
   }),
 });
 
@@ -21,6 +22,7 @@ const actualites = defineCollection({
     lede: z.string(),
     image: z.string(),
     publish_at: z.date(),
+    published: z.boolean(),
   }),
 });
 
