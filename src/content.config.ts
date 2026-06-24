@@ -10,7 +10,7 @@ const tableaux = defineCollection({
     dimensions: z.string(),
     for_sale: z.boolean(),
     price: z.number(),
-    date_created: z.date(),
+    date_created: z.number().default(0),
     published: z.boolean().default(true),
   }),
 });
@@ -31,7 +31,7 @@ const distinctions = defineCollection({
   schema: z.object({
     type: z.string(),
     location: z.string(),
-    received_at: z.date(),
+    received_at: z.number().default(0),
   }),
 });
 
