@@ -27,10 +27,7 @@ content:
         type: number
       - name: date_created
         label: Année de réalisation
-        type: date
-        default: ""
-        options:
-          format: yyyy-MM-dd
+        type: number
       - name: published
         label: Publié
         type: boolean
