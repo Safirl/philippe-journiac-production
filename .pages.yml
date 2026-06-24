@@ -57,7 +57,7 @@ content:
         options:
           format: yyyy-MM-dd
       - name: published
-        label: Publié
+        label: Publié ?
         type: boolean
         default: false
 
