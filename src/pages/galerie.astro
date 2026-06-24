@@ -3,7 +3,8 @@ import Layout from "../layouts/Layout.astro";
 
 import { getCollection } from "astro:content";
 
-const tableaux = await getCollection("tableaux");
+let tableaux = await getCollection("tableaux");
+tableaux = tableaux.filter((t) => t.data.published == true)
 ---
 
 <Layout pageTitle="Galerie">

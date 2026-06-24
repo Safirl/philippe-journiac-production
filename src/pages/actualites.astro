@@ -3,7 +3,8 @@ import Layout from "../layouts/Layout.astro";
 
 import { getCollection } from "astro:content";
 
-const actualites = await getCollection("actualites");
+let actualites = await getCollection("actualites")
+actualites = actualites.filter((a) => a.data.published == true)
 ---
 
 <Layout pageTitle="Actualités">
