@@ -1,5 +1,5 @@
 ---
 type: Prix du public
 location: Salon « Les artistes créateurs »
-received_at: 2025-06-08
+received_at: 2025
 ---

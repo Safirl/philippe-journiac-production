@@ -7,7 +7,7 @@ const distinctions = await getCollection("distinctions");
 
 const groupedDistinctions = distinctions.reduce(
     (acc, item) => {
-        const year = item.data.received_at.getFullYear();
+        const year = item.data.received_at;
 
         if (!acc[year]) {
             acc[year] = [];

@@ -23,11 +23,7 @@ const { entry } = Astro.props;
 
         <span>
             {
-                entry.data.date_created.toLocaleDateString(undefined, {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                })
+                entry.data.date_created
             }
         </span>
     </p>
