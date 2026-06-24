@@ -78,6 +78,4 @@ content:
         type: string
       - name: received_at
         label: Date du prix
-        type: date
-        options:
-          format: yyyy-MM-dd
+        type: number
