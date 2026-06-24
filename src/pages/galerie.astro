@@ -18,7 +18,7 @@ const tableaux = await getCollection("tableaux");
         <ul>
             {
                 tableaux
-                    .sort((a, b) => b.data.date_created.getTime() - a.data.date_created.getTime())
+                    .sort((a, b) => b.data.date_created - a.data.date_created)
                     .map((item) => (
                     <li class="painting-item" data-for-sale={item.data.for_sale ? "true" : "false"}>
                         <a href=`/galerie/${item.id}` >
@@ -30,7 +30,7 @@ const tableaux = await getCollection("tableaux");
                                 <div class="infos">
                                     <div>
                                         <h2>{item.data.title}</h2>
-                                        <p>{item.data.date_created.toLocaleDateString(undefined, { year: 'numeric' })}</p>
+                                        <p>{item.data.date_created}</p>
                                     </div>
 
                                     {
