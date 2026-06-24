@@ -24,9 +24,9 @@ const actualites = await getCollection("actualites");
 
                                 <p>{item.data.lede}</p>
 
-                                <div class="image-container">
+                                <!-- <div class="image-container"> -->
                                     <img src=`/content${item.data.image}` alt=`${item.data.title}` >
-                                </div>
+                                <!-- </div> -->
                             </article>
                         </a>
                     </li>
@@ -95,14 +95,14 @@ const actualites = await getCollection("actualites");
                             overflow: hidden;
                         }
 
+                        img {
+                            width: 100%;
+                            height: 500px;
+                            object-fit:cover;
+                        }
                         div.image-container {
                             aspect-ratio: 4 / 3;
 
-                            img {
-                                width: 100%;
-                                height: 100%;
-                                object-fit: cover;
-                            }
                         }
                     }
                 }
