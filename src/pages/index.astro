@@ -1,6 +1,8 @@
 ---
 import LastNews from "../components/LastNews.astro";
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import bioImage from "../images/photo-biographie.png";
 ---
 
 <Layout>
@@ -31,10 +33,16 @@ import Layout from "../layouts/Layout.astro";
             <a href="/galerie">Découvrir les tableaux</a>
         </div>
 
-        <img
-            src="./images/photo-biographie.png"
+        <Image
+            class={"bio-image"}
+            src={bioImage}
             alt="Photo de Philippe Journiac en train de peindre."
         />
+
+        <!-- <img
+            src="./images/photo-biographie.png"
+            alt="Photo de Philippe Journiac en train de peindre."
+        /> -->
     </section>
 
     <LastNews />
@@ -125,6 +133,7 @@ import Layout from "../layouts/Layout.astro";
 
         img {
             width: calc(100% * 5 / 12);
+            height: 100%;
             border-radius: 1rem;
             object-fit: cover;
 
