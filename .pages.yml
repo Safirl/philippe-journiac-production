@@ -29,9 +29,9 @@ content:
         label: Année de réalisation
         type: number
       - name: published
-        label: Publié
+        label: Publié ?
         type: boolean
-        default: false
+        default: true
 
   # DEUXIÈME COLLECTION : LES ACTUALITÉS
   - name: actualites
@@ -59,7 +59,7 @@ content:
       - name: published
         label: Publié ?
         type: boolean
-        default: false
+        default: true
 
   # TROISIEME COLLECTION : LES DISTINCTIONS
   - name: distinctions
