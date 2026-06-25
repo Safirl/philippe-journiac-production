@@ -21,7 +21,7 @@ tableaux = tableaux.filter((t) => t.data.published == true)
                 tableaux
                     .sort((a, b) => b.data.date_created - a.data.date_created)
                     .map((item) => (
-                    <li class="painting-item" data-for-sale={item.data.for_sale ? "true" : "false"}>
+                    <li id="ctaTrigger" class="painting-item" data-for-sale={item.data.for_sale ? "true" : "false"}>
                         <a href=`/galerie/${item.id}` >
                             <article>
                                 <div class="image-container">

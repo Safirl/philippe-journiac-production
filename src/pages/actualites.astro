@@ -19,7 +19,7 @@ actualites = actualites.filter((a) => a.data.published == true)
                     <li>
                         <p>{item.data.publish_at.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
-                        <a href=`/actualites/${item.id}` >
+                        <a href=`/actualites/${item.id}` id="ctaTrigger">
                             <article>
                                 <h2>{item.data.title}</h2>
 
