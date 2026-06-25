@@ -6,7 +6,7 @@
     div {
         top: 0px;
         left: 0px;
-        position: absolute;
+        position: fixed;
         background-color: $color-primary;
         pointer-events: none;
         opacity: 0;
@@ -22,6 +22,7 @@
 </style>
 
 <script>
+    document.body.style.overflow = "hidden";
     const init = () => {
         const lerpStrength = 0.2;
         let lastMousePosition = { x: 0, y: 0 };
@@ -45,13 +46,7 @@
             btn.style.left =
                 String(lerp(left, lastMousePosition.x, lerpStrength)) + "px";
             btn.style.top =
-                String(
-                    lerp(
-                        top,
-                        lastMousePosition.y + window.scrollY,
-                        lerpStrength,
-                    ),
-                ) + "px";
+                String(lerp(top, lastMousePosition.y, lerpStrength)) + "px";
             const targets = document.elementsFromPoint(
                 lastMousePosition.x,
                 lastMousePosition.y,

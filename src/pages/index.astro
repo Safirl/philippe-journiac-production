@@ -132,13 +132,15 @@ import bioImage from "../images/photo-biographie.png";
         }
 
         img {
-            width: calc(100% * 5 / 12);
+            width: 40vw;
+            max-width: 500px;
             height: 100%;
             border-radius: 1rem;
             object-fit: cover;
 
             @include respond-to("tablet") {
                 width: unset;
+                height: 300px;
             }
         }
     }
