@@ -1,45 +1,50 @@
 ---
-import SmoothScroll from '../components/SmoothScroll.astro';
+import SmoothScroll from "../components/SmoothScroll.astro";
 import Header from "../components/Header.astro";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import Footer from "../components/Footer.astro";
+import Cta from "../components/Cta.astro";
 import { ClientRouter, fade } from "astro:transitions";
 
-import '../assets/styles/_reset.scss';
-import '../assets/styles/style.scss';
-import '../assets/styles/lenis.scss';
+import "../assets/styles/_reset.scss";
+import "../assets/styles/style.scss";
+import "../assets/styles/lenis.scss";
 
 const { pageTitle } = Astro.props;
-const title = pageTitle ? pageTitle + " | Philippe Journiac" : "Philippe Journiac";
+const title = pageTitle
+    ? pageTitle + " | Philippe Journiac"
+    : "Philippe Journiac";
 ---
 
 <!doctype html>
 <html lang="fr" transition:animate={fade({ duration: "1s" })}>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		 todo: icons à mettre dans le dossier public
 		<link rel="icon" href="/favicon.ico" /> -->
-		<meta name="generator" content={Astro.generator} />
-		<!-- todo: c'est quoi ça ? "Astro.generator" -->
-		<title>{title}</title>
-		<!-- todo: titre dynamique avec l'endroit de la page (exemple: "Accueil | Philippe Journiac") (ajout d'un params je crois) -->
-		<ClientRouter />
-	</head>
-	<body>
-		<SmoothScroll />
-		
-		<Header/>
+        <meta name="generator" content={Astro.generator} />
+        <!-- todo: c'est quoi ça ? "Astro.generator" -->
+        <title>{title}</title>
+        <!-- todo: titre dynamique avec l'endroit de la page (exemple: "Accueil | Philippe Journiac") (ajout d'un params je crois) -->
+        <ClientRouter />
+    </head>
 
-		<slot name="hero" />
-		
-		<main>
-			<Breadcrumbs />
-			
-			<slot />
-		</main>
+    <body>
+        <Cta />
+        <SmoothScroll />
 
-		<Footer />
-	</body>
+        <Header />
+
+        <slot name="hero" />
+
+        <main>
+            <Breadcrumbs />
+
+            <slot />
+        </main>
+
+        <Footer />
+    </body>
 </html>

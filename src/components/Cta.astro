@@ -1,0 +1,75 @@
+<div id="cta">
+    <span>Cliquer pour ouvrir</span>
+</div>
+
+<style lang="scss">
+    div {
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        background-color: $color-primary;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+        width: max-content;
+    }
+
+    span {
+        padding: 0.5rem;
+        color: $color-white;
+        font-size: $fontsize-primary;
+    }
+</style>
+
+<script>
+    const init = () => {
+        const lerpStrength = 0.2;
+        let lastMousePosition = { x: 0, y: 0 };
+        const btn = document.getElementById("cta");
+        if (!btn) throw new Error("erreur");
+
+        const lerp = (start: number, end: number, t: number) => {
+            return start + (end - start) * t;
+        };
+
+        const followMouse = () => {
+            let top = 0;
+            let left = 0;
+            if (btn.style.top) {
+                top = Number(btn.style.top.replace("px", ""));
+            }
+            if (btn.style.left) {
+                left = Number(btn.style.left.replace("px", ""));
+            }
+
+            btn.style.left =
+                String(lerp(left, lastMousePosition.x, lerpStrength)) + "px";
+            btn.style.top =
+                String(
+                    lerp(
+                        top,
+                        lastMousePosition.y + window.scrollY,
+                        lerpStrength,
+                    ),
+                ) + "px";
+            const targets = document.elementsFromPoint(
+                lastMousePosition.x,
+                lastMousePosition.y,
+            );
+            let found = false;
+            targets.forEach((t) => {
+                if (t.id === "ctaTrigger") found = true;
+            });
+            btn.style.opacity = found ? "1" : "0";
+            requestAnimationFrame(followMouse);
+        };
+
+        document.addEventListener("mousemove", (e) => {
+            lastMousePosition.x = e.clientX;
+            lastMousePosition.y = e.clientY;
+        });
+
+        followMouse();
+    };
+    document.addEventListener("astro:page-load", init);
+</script>
