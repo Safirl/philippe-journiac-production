@@ -30,18 +30,22 @@ html {
         max-width: 100rem;
         margin: auto;
         //@TODO temporary for demo : find a way to fix the include.
-        margin: 0rem 8rem;
-        /*
-        @include respond-to("large") {
-            margin: 0 8rem;
-        } */
 
+        @include respond-to("large") {
+            margin: 0 auto;
+            /* background-color: green; */
+        }
+        @include respond-to("desktop") {
+            margin: 0 8rem;
+            /* background-color: yellow; */
+        }
         @include respond-to("tablet") {
             margin: 0 4rem;
+            /* background-color: blue; */
         }
-
         @include respond-to("mobile") {
             margin: 0 2rem;
+            /* background-color: red; */
         }
 
         h1 {
