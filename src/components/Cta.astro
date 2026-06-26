@@ -24,7 +24,7 @@
 <script>
     document.body.style.overflow = "hidden";
     const init = () => {
-        const lerpStrength = 0.2;
+        const lerpStrength = 0.8;
         let lastMousePosition = { x: 0, y: 0 };
         const btn = document.getElementById("cta");
         if (!btn) throw new Error("erreur");
@@ -32,8 +32,10 @@
         const lerp = (start: number, end: number, t: number) => {
             return start + (end - start) * t;
         };
-
-        const followMouse = () => {
+        let elapsed: number = 0;
+        const followMouse = (chrono: number) => {
+            let delta = chrono - elapsed;
+            elapsed = chrono;
             let top = 0;
             let left = 0;
             if (btn.style.top) {
@@ -44,9 +46,17 @@
             }
 
             btn.style.left =
-                String(lerp(left, lastMousePosition.x, lerpStrength)) + "px";
+                String(
+                    lerp(
+                        left,
+                        lastMousePosition.x,
+                        lerpStrength * delta * 0.01,
+                    ),
+                ) + "px";
             btn.style.top =
-                String(lerp(top, lastMousePosition.y, lerpStrength)) + "px";
+                String(
+                    lerp(top, lastMousePosition.y, lerpStrength * delta * 0.01),
+                ) + "px";
             const targets = document.elementsFromPoint(
                 lastMousePosition.x,
                 lastMousePosition.y,
@@ -64,7 +74,7 @@
             lastMousePosition.y = e.clientY;
         });
 
-        followMouse();
+        followMouse(0);
     };
     document.addEventListener("astro:page-load", init);
 </script>
