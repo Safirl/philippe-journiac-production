@@ -49,13 +49,17 @@
                 String(
                     lerp(
                         left,
-                        lastMousePosition.x,
+                        lastMousePosition.x + 20,
                         lerpStrength * delta * 0.01,
                     ),
                 ) + "px";
             btn.style.top =
                 String(
-                    lerp(top, lastMousePosition.y, lerpStrength * delta * 0.01),
+                    lerp(
+                        top,
+                        lastMousePosition.y - 20,
+                        lerpStrength * delta * 0.01,
+                    ),
                 ) + "px";
             const targets = document.elementsFromPoint(
                 lastMousePosition.x,
