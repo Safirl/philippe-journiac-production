@@ -10,7 +10,7 @@ import "../assets/styles/_reset.scss";
 import "../assets/styles/style.scss";
 import "../assets/styles/lenis.scss";
 
-const { pageTitle } = Astro.props;
+const { pageTitle, pageDescription } = Astro.props;
 const title = pageTitle
     ? pageTitle + " | Philippe Journiac"
     : "Philippe Journiac";
@@ -24,7 +24,26 @@ const title = pageTitle
         <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		 todo: icons à mettre dans le dossier public
 		<link rel="icon" href="/favicon.ico" /> -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="generator" content={Astro.generator} />
+        <meta name="description" content={pageDescription} />
         <!-- todo: c'est quoi ça ? "Astro.generator" -->
         <title>{title}</title>
         <!-- todo: titre dynamique avec l'endroit de la page (exemple: "Accueil | Philippe Journiac") (ajout d'un params je crois) -->
