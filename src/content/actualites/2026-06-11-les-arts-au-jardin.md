@@ -1,5 +1,5 @@
 ---
-title: LES' ARTS AU JARDIN
+title: Les' Arts Au Jardin
 lede: Le dimanche 17 mai 2026
 image: /images/affiche-medium.jpg
 publish_at: 2026-05-17
