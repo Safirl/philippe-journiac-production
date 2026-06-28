@@ -1,11 +1,12 @@
 ---
-title: EXPOSITION PEINTURE à SAINT-BRIAC SUR MER
-lede: EXPOSITION PEINTURE SALLE DES HALLES à SAINT-BRIAC SUR MER
+title: Exposition peinture à Saint-Briac-sur-mer
+lede: Exposition peinture à Saint-Briac-sur-mer
 image: /images/FB_IMG_1782126634204 (002).jpg
 publish_at: 2026-06-22
+published: true
 ---
-DU JEUDI 18 AU MERCREDI 24 JUIN 
+Du Jeudi 18 au mercredi 24 Juin
 
-VENEZ DECOUVRIER MES OEUVRES 
+Venez découvrir mes œuvres
 
-SALLE DES HALLES à SAINT-BRIAC SUR MER 
+Salle des halles à Saint-Briac-sur-mer
