@@ -7,7 +7,7 @@ image: /images/FB_IMG_1782126634204 (002).jpg
 publish_at: 2026-06-22
 published: true
 ---
-Du Jeudi 18 au mercredi 24 Juin
+Du **Jeudi 18 au mercredi 24 Juin**
 
 Venez découvrir mes œuvres
 
