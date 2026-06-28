@@ -1,5 +1,5 @@
 ---
 type: Médaille d'or
-location: ASF "SOCIETE ACADEMIQUE ARTS – SCIENCES – LETTRES" PARIS
+location: Société Académiques Arts – Sciences – Lettres  Paris
 received_at: 2026
 ---
