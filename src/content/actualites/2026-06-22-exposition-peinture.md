@@ -1,14 +1,15 @@
 ---
-title: EXPOSITION PEINTURE
+title: Exposition peinture
 lede: |-
-  EXPOSITION DE PEINTURE 
-  CHAPELLE SAINT-ANNE à SAINT-BROLADRE
+  Exposition peinture
+  Chapelle Saint-Anne de la Grève
   14 H 30 à 18 H 30
 image: /images/CHAPELLE SAINTE ANNE.jpg
 publish_at: 2026-06-22
+published: true
 ---
-DU 28 AOUT AU 03 SEPTEMBRE 2026
+Du 28 AOUT au 03 septembre 2026
 
-VENEZ DECOUVRIR MES DERNIERES OEUVRES à
+Venez découvrir mes dernières  œuvres à
 
-LA CHAPELLE SAINT-ANNE DE LA GREVE à SAINT BRELADRE
+La Chapelle Sainte Anne de la Grève
