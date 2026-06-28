@@ -8,7 +8,7 @@ image: /images/CHAPELLE SAINTE ANNE.jpg
 publish_at: 2026-06-22
 published: true
 ---
-Du 28 aout au 03 septembre 2026
+Du **28 aout au 03 septembre 2026**
 
 Venez découvrir mes dernières  œuvres à
 
