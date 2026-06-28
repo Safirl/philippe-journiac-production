@@ -1,5 +1,5 @@
 ---
-title: Exposition peinture à Saint-Briac-sur-mer
+title: Exposition peinture à Saint-Briac-sur mer
 lede: Exposition peinture à Saint-Briac-sur-mer
 image: /images/FB_IMG_1782126634204 (002).jpg
 publish_at: 2026-06-22
