@@ -1,13 +1,14 @@
 ---
-title: PEINTURE, SCULPTURE, ECRITURE, DANS LA RUE à DANGY
+title: Peinture, sculoture, écriture dans la rue à Dangy
 lede: |-
-  31ème EDITION + DE 100 ARTISTES
-  EXPOSE DANS LA RUE
+  31ème Edition + de 100 artistes
+  Exposent dans la rue le dimanche 28 juillet 2026
 image: /images/FB_IMG_1782dangy.jpg
 publish_at: 2026-06-22
+published: true
 ---
-DIMANCHE 26 JUILLET 2026
+Dimanche 28 juillet 2026
 
 à DANGY situé dans le département de la Manche en Normandie
 
- EXPOSITION PEINTURE, SCULPTURE, ECRITURE
+ Exposition, peinture, sculpture écriture 
