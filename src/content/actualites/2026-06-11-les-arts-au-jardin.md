@@ -7,6 +7,6 @@ published: true
 ---
 Venez à la rencontre de 11 artistes. Ils exposent dans un cadre bucolique. 
 
-Le dimanche 17/05/2026 à Plélan le petit
+Le dimanche 17/05/2026 à **Plélan le petit**
 
 31 Rue des Graviers
