@@ -9,6 +9,6 @@ published: true
 ---
 Dimanche 28 juillet 2026
 
-à DANGY situé dans le département de la Manche en Normandie
+à **DANGY situé dans le département de la Manche en Normandie**
 
  Exposition, peinture, sculpture écriture 
