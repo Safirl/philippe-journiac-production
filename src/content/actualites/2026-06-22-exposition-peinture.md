@@ -12,4 +12,4 @@ Du 28 aout au 03 septembre 2026
 
 Venez découvrir mes dernières  œuvres à
 
-La Chapelle Sainte Anne de la Grève
+La Chapelle **Sainte Anne de la Grève**
