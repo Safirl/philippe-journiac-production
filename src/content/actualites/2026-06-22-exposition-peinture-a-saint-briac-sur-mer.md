@@ -11,4 +11,4 @@ Du Jeudi 18 au mercredi 24 Juin
 
 Venez découvrir mes œuvres
 
-Salle des halles à Saint-Briac-sur-mer
+Salle des halles à **Saint-Briac-sur-mer**
