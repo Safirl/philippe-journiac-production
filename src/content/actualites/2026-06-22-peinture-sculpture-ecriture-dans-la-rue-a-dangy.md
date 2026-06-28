@@ -1,5 +1,5 @@
 ---
-title: Peinture, sculoture, écriture dans la rue à Dangy
+title: Peinture, sculoture, écriture dans la rue à DANGY (50)
 lede: |-
   31ème Edition + de 100 artistes
   Exposent dans la rue le dimanche 28 juillet 2026
