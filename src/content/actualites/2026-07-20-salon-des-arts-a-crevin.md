@@ -8,6 +8,6 @@ image: /images/SALON DES ARTS CREVIBN.jpg
 publish_at: 2026-07-20
 published: true
 ---
-55 Artistes Peintres Sculpteurs Photographes vous attendent
+**55 Artistes Peintres Sculpteurs Photographes vous attendent les 12 et 13 septembre 2026 à Crévin.**
 
-Ouverture gratuite au piblic
+**Ouverture gratuite au public**
