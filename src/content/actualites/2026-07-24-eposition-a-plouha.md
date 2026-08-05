@@ -6,7 +6,7 @@ lede: |-
   Entrée libre
 image: /images/affiche provisoire plouha 50  jpg.jpg
 publish_at: 2026-07-24
-published: false
+published: true
 ---
 De 10 h à 13 h et de 14 h à 18 h 30
 
