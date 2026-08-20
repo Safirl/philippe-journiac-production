@@ -5,5 +5,5 @@ dimensions: 55 x 33 cm
 for_sale: true
 price: 390
 date_created: 2026
-published: false
+published: true
 ---
