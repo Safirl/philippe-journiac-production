@@ -19,14 +19,22 @@ const { Content } = await render(entry);
     <h1>{entry.data.title}</h1>
 
     <p class="date">
-        Publié le
         {
-            entry.data.publish_at.toLocaleDateString("fr-FR", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-            })
+            entry.data.publish_at.getTime() > Date.now() ? (
+                <span>L'évènement aura lieu le</span>
+            ) : (
+                <span>L'évènement a eu lieu le</span>
+            )
         }
+        <span style="font-weight: bold;">
+            {
+                entry.data.publish_at.toLocaleDateString("fr-FR", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                })
+            }
+        </span>
     </p>
 
     <p class="lede">{entry.data.lede}</p>

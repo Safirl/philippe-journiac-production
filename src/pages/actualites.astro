@@ -7,7 +7,7 @@ let actualites = await getCollection("actualites")
 actualites = actualites.filter((a) => a.data.published == true)
 ---
 
-<Layout pageTitle="Actualités">
+<Layout pageTitle="Expositions" pageDescription="Découvrez les futures expositions de Philippe Journiac">
     <section>
         <h1>Expositions</h1>
 
@@ -17,7 +17,7 @@ actualites = actualites.filter((a) => a.data.published == true)
                     .sort((a, b) => b.data.publish_at.getTime() - a.data.publish_at.getTime())
                     .map((item) => (
                     <li>
-                        <p>{item.data.publish_at.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                        <p>{item.data.publish_at.toLocaleDateString("fr-FR", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
                         <a href=`/actualites/${item.id}` id="ctaTrigger">
                             <article>

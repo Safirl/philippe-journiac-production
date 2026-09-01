@@ -52,7 +52,7 @@ content:
         label: Image
         type: image
       - name: publish_at
-        label: Date de publication
+        label: Date de l'exposition
         type: date
         options:
           format: yyyy-MM-dd
