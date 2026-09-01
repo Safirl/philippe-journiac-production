@@ -9,7 +9,7 @@ lede: The first paragraph of an article is often an introduction to the text.
   with a little anecdote, or a familiar problem. If you’re putting together
   something for businesses, you might start off with a relevant piece of data.
 image: /images/MjAyNDA1ZmE2OWY0YjM3MGU4MGRiN2Y2YTQ0OTQxYTgxODM1YjI.avif
-publish_at: 2024-05-28
+publish_at: 2027-05-28
 published: true
 ---
 Philippe Journiac natif de Saint-Malo (Ille-et-Vilaine), vit à Plélan-le-Petit (Côtes-d’Armor) depuis plus de vingt ans. Peintre autodidacte, il a regoûté aux joies de peindre après une vie professionnelle bien remplie. Des marines, des vues de sous-bois et aussi des natures mortes composent l’exposition en cours à Cerise Créations à [Vire Normandie]([https://www.ouest-france.fr/normandie/vire-normandie-14500/](https://www.ouest-france.fr/normandie/vire-normandie-14500/)) ([Calvados]([https://www.ouest-france.fr/normandie/calvados/](https://www.ouest-france.fr/normandie/calvados/))) jusqu’à la fin du mois.
