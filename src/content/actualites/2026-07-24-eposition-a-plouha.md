@@ -5,7 +5,7 @@ lede: |-
   Du SAMEDI 8 AOUT au SAMEDI 22 AOUT 2026
   Entrée libre
 image: /images/affiche provisoire plouha 50  jpg.jpg
-publish_at: 2026-07-24
+publish_at: 2026-08-08
 published: true
 ---
 De 10 h à 13 h et de 14 h à 18 h 30
