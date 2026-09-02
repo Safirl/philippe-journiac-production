@@ -4,7 +4,7 @@ lede: |-
   31ème Edition + de 100 artistes
   Exposent dans la rue le dimanche 26 juillet 2026
 image: /images/FB_IMG_1782dangy.jpg
-publish_at: 2026-06-22
+publish_at: 2026-07-26
 published: true
 ---
 **Dimanche 26 juillet 2026**
