@@ -29,8 +29,12 @@ const groupedDistinctions = distinctions.reduce(
     <section class="container">
         <h1 class="title">Biographie</h1>
         <section class="table-of-content">
-            <a href="#biography" data-section="biography">Biographie</a>
-            <a href="#distinctions" data-section="distinctions">Distinctions</a>
+            <a href="#biography" data-section="biography">
+                Biographie
+            </a>
+            <a href="#distinctions" data-section="distinctions">
+                Distinctions
+            </a>
         </section>
         <section class="content">
             <p class="biography" id="biography">
@@ -38,7 +42,7 @@ const groupedDistinctions = distinctions.reduce(
                 par un professeur d’art de 11 ans à 14 ans. C’est ainsi que je
                 réalisais à l’âge de 12 ans un concours inter-collèges où je me
                 suis vu attribuer un prix. Je repris quelques instants mes
-                pinceaux seulement en 1995 pour réaliser le concours de «
+                pinceaux seulement en 1996 pour réaliser le concours de «
                 Solidor en peinture » à St Malo, cette œuvre réalisée sur le
                 site fut primée. En août 2023, je suis revenu de manière
                 intensive à mes pinceaux. Inspiré par l’impressionnisme mes
@@ -50,25 +54,20 @@ const groupedDistinctions = distinctions.reduce(
             </p>
             <div id="distinctions">
                 <h2>Distinctions</h2>
-                {
-                    Object.entries(groupedDistinctions)
-                        .sort(
-                            ([yearA], [yearB]) => Number(yearB) - Number(yearA),
-                        )
-                        .map(([year, items]) => (
-                            <div>
-                                <h3>{year}</h3>
-                                <ul>
-                                    {items.map((item) => (
-                                        <li>
-                                            {item.data.type} -{" "}
-                                            {item.data.location}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        ))
-                }
+                {Object.entries(groupedDistinctions)
+                    .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+                    .map(([year, items]) => (
+                        <div>
+                            <h3>{year}</h3>
+                            <ul>
+                                {items.map((item) => (
+                                    <li>
+                                        {item.data.type} - {item.data.location}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    ))}
             </div>
         </section>
     </section>
